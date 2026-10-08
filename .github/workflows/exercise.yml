@@ -1,0 +1,8 @@
+name: exercise
+on:
+  workflow_dispatch:
+jobs:
+  exercise:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo synthetic exercise line
